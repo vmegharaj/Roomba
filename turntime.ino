@@ -248,7 +248,7 @@ void loop() { // Swarm "Set Orientation" Code
     Move(forward, 0);            // Stop Roomba from turning
     delayflag = true;
     Serial.print("\nTurn completed\n");
-    digitalWrite(yellowPin, LOW);     // Tell me that the robot is done
+    digitalWrite(yellowPin, LOW);     // Tell me that the robot is done - would like to have a millis delay here
   }
 
   //counter++; // Increment the counter variable

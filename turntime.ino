@@ -5,6 +5,8 @@
 #include <Wire.h>
 #include "compass.h"
 
+//Testing changes
+
 #define address 0x1E //0011110b, I2C 7bit address of HMC5883
 
 int rxPin = 3;
